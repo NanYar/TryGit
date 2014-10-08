@@ -13,6 +13,7 @@
 		17031D7719E551B900D85AA7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17031D7619E551B900D85AA7 /* Images.xcassets */; };
 		17031D7A19E551B900D85AA7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17031D7819E551B900D85AA7 /* LaunchScreen.xib */; };
 		17031D8619E551B900D85AA7 /* TryGitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17031D8519E551B900D85AA7 /* TryGitTests.swift */; };
+		176C985F19E552F40074AB83 /* Git.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176C985E19E552F40074AB83 /* Git.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		17031D7F19E551B900D85AA7 /* TryGitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TryGitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17031D8419E551B900D85AA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		17031D8519E551B900D85AA7 /* TryGitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryGitTests.swift; sourceTree = "<group>"; };
+		176C985E19E552F40074AB83 /* Git.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Git.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				17031D6F19E551B900D85AA7 /* AppDelegate.swift */,
 				17031D7119E551B900D85AA7 /* ViewController.swift */,
+				176C985E19E552F40074AB83 /* Git.swift */,
 				17031D7319E551B900D85AA7 /* Main.storyboard */,
 				17031D7619E551B900D85AA7 /* Images.xcassets */,
 				17031D7819E551B900D85AA7 /* LaunchScreen.xib */,
@@ -214,6 +217,7 @@
 			files = (
 				17031D7219E551B900D85AA7 /* ViewController.swift in Sources */,
 				17031D7019E551B900D85AA7 /* AppDelegate.swift in Sources */,
+				176C985F19E552F40074AB83 /* Git.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +411,7 @@
 				17031D8B19E551B900D85AA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		17031D8C19E551B900D85AA7 /* Build configuration list for PBXNativeTarget "TryGitTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +420,7 @@
 				17031D8E19E551B900D85AA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
