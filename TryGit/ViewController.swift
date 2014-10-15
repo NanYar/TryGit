@@ -16,6 +16,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        helloLabel.textColor = UIColor.blueColor()
         helloLabel.text = "Hello World!"
     }
     
