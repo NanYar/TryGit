@@ -9,10 +9,16 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var helloLabel: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        helloLabel.text = "Hello World!"
     }
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
